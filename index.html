@@ -1,9 +1,42 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
   <title>Amazon Clone</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Amazon Clone Running 🚀</h1>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">Amazon</div>
+  <input type="text" placeholder="Search Amazon">
+  <div class="cart">🛒 Cart</div>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Welcome to Amazon Clone</h1>
+</div>
+
+<!-- PRODUCTS -->
+<div class="products">
+
+  <div class="card">
+    <img src="https://via.placeholder.com/150">
+    <h3>iPhone 15</h3>
+    <p>₹70,000</p>
+    <button onclick="addToCart()">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/150">
+    <h3>Laptop</h3>
+    <p>₹50,000</p>
+    <button onclick="addToCart()">Add to Cart</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
