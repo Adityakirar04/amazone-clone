@@ -1,1 +1,3 @@
-console.log("Running...");
+ function addToCart() {
+  alert("Product added to cart 🛒");
+}
