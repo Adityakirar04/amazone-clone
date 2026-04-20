@@ -1,3 +1,40 @@
-body {
-  background: #f2f2f2;
+ body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #131921;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* HERO */
+.hero {
+  background: lightgray;
+  padding: 40px;
+  text-align: center;
+}
+
+/* PRODUCTS */
+.products {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  background: orange;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
 }
